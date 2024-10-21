@@ -1,15 +1,11 @@
 <template>
   <div>
-    <AppHeader />
-    <slot />
-    <AppFooter />
+    <Header />
+    <div class="flex flex-col min-h-screen">
+      <main class="flex-grow">
+        <slot />
+      </main>
+    </div>
+    <Footer />
   </div>
 </template>
-
-<style scoped>
-  div {
-    /* background-color: rgb(99, 97, 90); */
-    /* padding: 20px; */
-    height: 100vh;
-  }
-</style>

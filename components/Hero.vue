@@ -1,17 +1,54 @@
 <template>
-  <div class="bg-cover bg-center bg-no-repeat h-screen flex flex-col items-center justify-center">
-    <div class="flex flex-col items-center justify-center">
-      <h1 class="text-white text-center text-4xl font-bold uppercase">RYAD SHISHA HOOKAH LOUNGE</h1>
-      <div class="bg-red-500 p-4 mt-4">
-        <h2 class="text-white text-center text-xl font-bold">
-          Experience pure bliss, indulge a wide variety of high-quality tobacco
-        </h2>
-        <p class="text-white text-center text-sm">
-          Immerse yourself in a haven of luxury as you savor our extensive selection of high quality and premium
-          tobacco. Each puff transports you to a realm of pure bliss, where time slows down, and worries fade away.
-        </p>
-      </div>
-      <UButton color="rose" size="lg" class="mt-8 text-center text-white uppercase">See our menu</UButton>
+  <section class="hero-background bg-cover bg-center h-screen flex flex-col justify-center items-center px-8">
+    <h1 class="font-title text-white text-center text-4xl uppercase font-bold mb-8">
+      Experience pure bliss, indulge high-quality tobacco
+    </h1>
+    <h2 class="text-white text-xl font-bold">RYAD SHISHA HOOKAH LOUNGE</h2>
+    <p class="font-serif text-white text-center text-sm text-pretty mb-8">
+      Immerse yourself in a haven of luxury as you savor our extensive selection of high quality and premium tobacco.
+      Each puff transports you to a realm of pure bliss, where time slows down, and worries fade away.
+    </p>
+    <div class="mx-auto">
+      <Button text="See our menu" />
     </div>
-  </div>
+  </section>
 </template>
+
+<style scoped>
+  .hero-background {
+    background-image: url('/img/hero/leon-kohle-JzxOS6RcnJ0-unsplash.jpg');
+    animation: backgroundTransition 5s infinite ease-in-out;
+    background-blend-mode: darken;
+  }
+
+  h1,
+  h2,
+  p {
+    text-shadow: -2px -2px 4px rgba(0, 0, 0, 0.9);
+    animation: shadowTransition 5s infinite ease-in-out;
+  }
+
+  @keyframes backgroundTransition {
+    0% {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    75% {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    100% {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  @keyframes shadowTransition {
+    0% {
+      text-shadow: -2px -2px 4px rgba(0, 0, 0, 0.9);
+    }
+    25% {
+      text-shadow: -6px -6px 4px rgba(0, 0, 0, 0.9);
+    }
+    100% {
+      text-shadow: -2px -2px 4px rgba(0, 0, 0, 0.9);
+    }
+  }
+</style>
