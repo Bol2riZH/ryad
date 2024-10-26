@@ -1,10 +1,8 @@
 <template>
   <section class="hero-background bg-cover bg-center h-screen flex flex-col justify-center items-center px-8">
-    <h1 class="font-title text-white text-center text-4xl uppercase font-bold mb-8">
-      Experience pure bliss, indulge high-quality tobacco
-    </h1>
-    <h2 class="text-white text-xl font-bold">RYAD SHISHA HOOKAH LOUNGE</h2>
-    <p class="font-serif text-white text-center text-sm text-pretty mb-8">
+    <h1 class="text-white text-center mb-8">Experience pure bliss, indulge high-quality tobacco</h1>
+    <h2 class="text-white">RYAD SHISHA HOOKAH LOUNGE</h2>
+    <p class="text-white text-center mb-8">
       Immerse yourself in a haven of luxury as you savor our extensive selection of high quality and premium tobacco.
       Each puff transports you to a realm of pure bliss, where time slows down, and worries fade away.
     </p>

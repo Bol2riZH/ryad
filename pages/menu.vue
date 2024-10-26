@@ -11,7 +11,7 @@
         everyone. Come and experience the difference at Ryad Shisha Hookah Lounge.
       </p>
     </div>
-    <ImageMenu src="img/menu/1.jpg" alt="menu 1" />
+    <ImageMenu src="/img/menu/1.jpg" alt="menu 1" />
     <ImageMenu src="img/menu/2.jpg" alt="menu 2" />
     <ImageMenu src="img/menu/3.jpg" alt="menu 3" />
     <ImageMenu src="img/menu/4.jpg" alt="menu 4" />

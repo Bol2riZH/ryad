@@ -11,10 +11,10 @@
 
 <template>
   <section class="bg-black px-8 py-24">
-    <h2 class="text-white text-center text-lg font-bold text-pretty">
+    <h2 class="text-white text-center text-pretty">
       Our dedicated team of shisha artisans will guide you through an enchanting journey.
     </h2>
-    <p data-aos="fade-right" data-aos-delay="200" class="font-serif text-white text-center text-sm text-pretty mb-8">
+    <p data-aos="fade-right" data-aos-delay="200" class="text-white text-center mb-8">
       Every moment wil be infused with sophistication and pleasure.
     </p>
   </section>

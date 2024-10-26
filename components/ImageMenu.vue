@@ -6,7 +6,5 @@
 </script>
 
 <template>
-  <div class="my-8 flex justify-center rounded">
-    <NuxtImg :src="src" :alt="alt" class="rounded" loading="lazy" />
-  </div>
+  <NuxtImg :src="src" :alt="alt" class="rounded mx-auto p-8" />
 </template>
